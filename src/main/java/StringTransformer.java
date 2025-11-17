@@ -1,2 +1,3 @@
-public class StringTransformer {
+public interface StringTransformer {
+   void execute(StringDrink drink);
 }
