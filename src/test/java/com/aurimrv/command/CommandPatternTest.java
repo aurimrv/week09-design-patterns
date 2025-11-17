@@ -1,3 +1,5 @@
+package com.aurimrv.command;
+
 import org.junit.jupiter.api.Test;
 
 import java.util.ArrayList;
@@ -5,7 +7,7 @@ import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class StringDrinkTest {
+public class CommandPatternTest {
    @Test
    public void stringDrink() {
       StringDrink drink = new StringDrink("ABCD");

@@ -1,3 +1,5 @@
+package com.aurimrv.command;
+
 public class StringDrink {
    private String text;
    public StringDrink(String text) {

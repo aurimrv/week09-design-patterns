@@ -1,3 +1,5 @@
+package com.aurimrv.command;
+
 import java.util.List;
 
 public class StringRecipe {

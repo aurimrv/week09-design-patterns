@@ -1,7 +1,9 @@
+package com.aurimrv.command;
+
 public abstract class StringTransformer {
    private String backup;
 
-   abstract void execute(StringDrink drink);
+   public abstract void execute(StringDrink drink);
 
    public void saveBackup(StringDrink drink) {
       backup = drink.getText();

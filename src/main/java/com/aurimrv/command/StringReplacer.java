@@ -1,3 +1,5 @@
+package com.aurimrv.command;
+
 public class StringReplacer extends StringTransformer {
    private char a;
    private char x;
