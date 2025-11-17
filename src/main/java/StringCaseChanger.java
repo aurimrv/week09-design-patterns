@@ -1,6 +1,7 @@
-public class StringCaseChanger implements StringTransformer {
+public class StringCaseChanger extends StringTransformer {
    @Override
    public void execute(StringDrink drink) {
+      saveBackup(drink);
       StringBuilder sb = new StringBuilder();
       for(char c : drink.getText().toCharArray()) {
          if(Character.isUpperCase(c)) {
